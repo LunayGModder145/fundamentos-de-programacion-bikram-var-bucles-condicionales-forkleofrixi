@@ -85,3 +85,40 @@ let seisNoEsNueve = 6 !== 9;
 
 // 19.- Crear variable booleanoMix2 cuyo valor sea la comparación booleana variableValorNumerico positivo (0 no incluido) o menor que -(MiNumeroFav * TAU)
 let booleanoMix2 = variableValorNumerico > 0 || variableValorNumerico < -(MiNumeroFav * TAU);
+
+// --- Operadores ---
+
+// 20.- Crear variable valorSuma cuyo valor sea la suma de MiNumeroFav y variableValorNumerico
+let valorSuma = MiNumeroFav + variableValorNumerico;
+
+// 21.- Crear variable valorResta cuyo valor sea la resta de MiNumeroFav y variableValorNumerico
+let valorResta = MiNumeroFav - variableValorNumerico;
+
+// 22.- Crear variable valorMultiplicación cuyo valor sea la multiplicación de MiNumeroFav por variableValorNumerico
+let valorMultiplicacion = MiNumeroFav * variableValorNumerico;
+
+// 23.- Crear variable valorDivisión cuyo valor sea la división de MiNumeroFav entre 3
+let valorDivision = MiNumeroFav / 3;
+
+// --- Bucles ---
+
+// 24.- Crear variable contarHasta10 con valor 0 e incrementar su valor con un bucle while hasta que se verifique que contarHasta10 === 10
+let contarHasta10 = 0;
+while (contarHasta10 < 10) {
+    contarHasta10++;
+}
+
+// 25.- Crear las variables preI y preJ con valor 0 a continuación cree un bucle que itere 11 veces. En cada iteración se deberá sumar al valor de preI el valor de ++preJ
+let preI = 0;
+let preJ = 0;
+for (let i = 0; i < 11; i++) {
+    preI += ++preJ;
+}
+
+// 26.- Crear la variable sumaImpares con valor 0 a continuación crea un bucle que itere 10 veces (i < 10) si la iteración es impar se deberá sumar a sumaImpares el número de la iteración actual (i)
+let sumaImpares = 0;
+for (let i = 0; i < 10; i++) {
+    if (i % 2 !== 0) {
+        sumaImpares += i;
+    }
+}
