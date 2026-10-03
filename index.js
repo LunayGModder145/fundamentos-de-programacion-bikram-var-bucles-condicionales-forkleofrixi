@@ -59,4 +59,29 @@ for (let i = 0; i < 10; i++) {
     }
 }
 
+// EJERCICIOS DE PROYECTO INDIVIDUAL:
 
+// --- Variables ---
+
+// 13.- Crear variable tipo let de nombre variableValorNumerico declarada con un valor numérico cualquiera
+let variableValorNumerico = 5;
+
+// 14.- Crear variable tipo const de nombre MiNombre declarada con valor tu nombre
+const MiNombre = "Leonardo";
+
+// 15.- Crear variable tipo const de nombre MiNumeroFav declarada con valor numérico
+const MiNumeroFav = 14;
+
+// --- Booleanos ---
+
+// 16.- Crear variable booleanoOr cuyo calor sea la comparación booleana booleano1 or booleano2
+let booleanoOr = booleano1 || booleano2;
+
+// 17.- Crear variable booleanoMix1 cuyo valor sea la comparación booleana (booleano1 and (TAU/2 sea igual a PI)) or (variableValorNumerico mayor o igual que MiNumeroFav)
+let booleanoMix1 = (booleano1 && (TAU / 2 === PI)) || (variableValorNumerico >= MiNumeroFav);
+
+// 18.- Crear variable seisNoEsNueve cuyo valor sea la comparación booleana 6 no es estrictamente igual que 9
+let seisNoEsNueve = 6 !== 9;
+
+// 19.- Crear variable booleanoMix2 cuyo valor sea la comparación booleana variableValorNumerico positivo (0 no incluido) o menor que -(MiNumeroFav * TAU)
+let booleanoMix2 = variableValorNumerico > 0 || variableValorNumerico < -(MiNumeroFav * TAU);
